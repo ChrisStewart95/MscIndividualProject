@@ -1,0 +1,49 @@
+#baseBackground{
+	background-color: black;
+	color: white;
+}
+
+.rowPad {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#oscilloscope{
+	padding-top: 50px;
+	width: 100%;
+	height: 500px;
+}
+
+#note {
+	font-size: 75px;
+	display: inline-block;
+	height: 180px;
+	text-align: left;
+}
+
+#noteDetect {
+	height: 150px;
+	border: 4px solid cyan;
+	border-radius: 8px;
+	text-align: center;
+	padding-top: 10px;
+	background-color: white;
+}
+
+.feedback {
+	color: black;
+}
+
+.noFeedback {
+	color: grey;
+}
+
+#pitchTextColour {
+	color: cyan;
+}
+
+[data-notify="container"]{
+	
+	text-align: center;
+	font-weight: bold;
+}
